@@ -1,1 +1,1 @@
-choco install bulk-crap-uninstaller ccleaner vscode krita gimp blender git audacity godot godot-mono dotnetcore-sdk dotnetfx visualstudio2019buildtools visualstudio2019-workload-netcorebuildtools inkscape -y
+choco install bulk-crap-uninstaller ccleaner vscode krita gimp blender git audacity godot godot-mono visualstudio2019buildtools visualstudio2019-workload-manageddesktopbuildtools inkscape -y
