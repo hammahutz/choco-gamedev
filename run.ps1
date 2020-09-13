@@ -53,5 +53,5 @@ while ($continue -ne "0") {
     }
 } 
 
-Write-Host "SCRIPT DID RUN SUCCESSFULY! HURRAY! :D"
+Write-Host "THE SCRIPT DID RUN SUCCESSFULY! HURRAY! :D"
 PAUSE
