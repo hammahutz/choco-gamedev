@@ -1,0 +1,1 @@
+choco install visualstudio2019community visualstudio2019-workload-nativegame visualstudio2019-workload-managedgame unity-hub epicgameslauncher git -y
