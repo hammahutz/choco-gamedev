@@ -1,1 +1,1 @@
-choco install vscode krita gimp blender git audacity godot godot-mono visualstudio2019buildtools visualstudio2019-workload-manageddesktopbuildtools inkscape -y
+choco install vscode krita gimp blender git audacity godot godot-mono visualstudio2019buildtools visualstudio2019-workload-manageddesktop netfx-4.7-devpack dotnet4.7 inkscape -y
