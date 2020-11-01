@@ -1,6 +1,6 @@
 if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
 
-$Version = Read-Host "Which version to install? [c]ombined, [g]odot, [u]nity, [up]grade, [un]install, [m]onogame"
+$Version = Read-Host "Which version to install? [c]ombined, [g]odot, [u]nity, [up]grade, [un]install, [m]onogame, [o]pen source"
 $contune = "0";
 
 while ($continue -ne "0") {
@@ -44,6 +44,7 @@ while ($continue -ne "0") {
         invoke-expression $AnyFile
     break
     }
+
     elseif($Version -eq "m"){
         $contune = "1"
         $AnyFile = Get-Content $PSScriptRoot\src\monogame.ps1 -Raw
@@ -51,9 +52,16 @@ while ($continue -ne "0") {
     break
     }
 
+    elseif($Version -eq "o"){
+        $contune = "1"
+        $AnyFile = Get-Content $PSScriptRoot\src\open-sorces.ps1 -Raw
+        invoke-expression $AnyFile
+    break
+    }
+
     else{
         Write-Host "ERROR, invalid version"
-        $Version = Read-Host "Which version to install? [c]ombined, [g]odot, [u]nity, [up]grade, [un]install"
+        $Version = Read-Host "Which version to install? [c]ombined, [g]odot, [u]nity, [up]grade, [un]install, [m]onogame, [o]pen source"
     }
 } 
 $contune = "0";
