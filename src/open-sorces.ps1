@@ -1,1 +1,1 @@
-choco install git vscode krita gimp blender git audacity love lua inkscape atom openttd -y
+choco install git krita gimp blender audacity love lua godot openttd vim zerobrane-studio tiled magicavoxel inkscape -y
