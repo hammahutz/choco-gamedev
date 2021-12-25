@@ -1,1 +1,1 @@
-choco install git krita gimp blender audacity love lua godot openttd vim zerobrane-studio tiled magicavoxel inkscape -y
+choco install git krita gimp blender audacity love lua tiled godot godot-mono lmms openttd vim zerobrane-studio tiled magicavoxel neovim vim inkscape -y
