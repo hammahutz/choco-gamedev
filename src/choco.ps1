@@ -1,4 +1,4 @@
-choco install netfx-4.7-devpack  dotnetcore-sdk bulk-crap-uninstaller ccleaner godot godot-mono  git vscode krita gimp blender audacity love lua atom unity unity-android unity-linux unity-webgl unity-metro unity-il2cpp unity-win-il2cpp unity-docs openttd inkscape -y
+choco install git krita gimp blender audacity love lua tiled godot godot-mono lmms openttd vim zerobrane-studio tiled magicavoxel neovim vim inkscape -y
 dotnet new -i Monogame.Templates.CSharp
 dotnet tool install -g dotnet-mgfxc
 dotnet tool install -g dotnet-mgcb
